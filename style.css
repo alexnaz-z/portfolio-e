@@ -509,7 +509,8 @@
 #letter{
     display: flex;
     flex-direction: row;
-    background-image: url("images/giphy (3).gif");
+    /* background-image: url("images/giphy (3).gif"); */
+    background-color: #D8C3A5;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
