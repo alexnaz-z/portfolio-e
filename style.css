@@ -5,13 +5,18 @@
 }
 
 @font-face {
-    font-family: 'Amarante-Regular';
+    font-family: 'Amarante';
     src: url(fonts/Amarante-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Lexend-VariableFont_wght';
+    font-family: 'Lexend';
     src: url(fonts/Lexend-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Gothic Outline;
+    src: url(fonts/Gothic\ Outline\ Title\ D\ OT\ Regular.otf);
 }
 
 
@@ -172,7 +177,7 @@
     color: #e6cba8;
     margin-bottom: 25px;
     letter-spacing: -1px;
-    font-family: "Amarante-Regular";
+    font-family: "Amarante";
     padding-left: 10px;
 }
 
@@ -193,7 +198,7 @@
     color: #ded9c7;
     text-align: justify;
     margin-bottom: 35px;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
     padding: 0 10px 0 10px;;
 }
 
@@ -217,14 +222,14 @@
     font-size: 1.35rem;
     color: #e6cba8;
     margin-bottom: 20px;
-    font-family: "Amarante-Regular";
+    font-family: "Amarante";
 }
 
 #section1 .skills-list {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
 }
 
 #section1 .skills-list span {
@@ -299,7 +304,7 @@
     text-transform: uppercase;
     color: #d79b79;
     margin-bottom: 12px;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
 }
 
 #section1 .project-content h3 {
@@ -307,14 +312,14 @@
     line-height: 1.4;
     color: #e6cba8;
     margin-bottom: 15px;
-    font-family: "Amarante-Regular";
+    font-family: "Amarante";
 }
 
 #section1 .project-content p {
     color: #ded9c7;
     font-size: 0.95rem;
     line-height: 1.8;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
 }
 
 
@@ -387,7 +392,7 @@
     text-transform: uppercase;
     color: #d79b79;
     margin-bottom: 10px;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
 }
 
 #section1 .certificate-content h3 {
@@ -395,14 +400,14 @@
     line-height: 1.4;
     color: #e6cba8;
     margin-bottom: 12px;
-    font-family: "Amarante-Regular";
+    font-family: "Amarante";
 }
 
 #section1 .certificate-content p {
     font-size: 0.9rem;
     line-height: 1.7;
     color: #ded9c7;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
 }
 
 
@@ -511,7 +516,8 @@
     display: flex;
     flex-direction: row;
     /* background-image: url("images/giphy (3).gif"); */
-    background-color: #D8C3A5;
+    background-color: #e8e4d6;
+    /* background-color: #D8C3A5; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -564,7 +570,7 @@
     color: #454c26;
     font-size: 30px;
     margin: 0;
-    font-family: "Amarante-Regular";
+    font-family: "Amarante";
     padding-right: 20px;
 }
 
@@ -587,7 +593,7 @@
 }
 
 .postcard-form label{
-    font-family: "Amarante-Regular";;
+    font-family: "Amarante";;
 }
 
 .postcard-form input,
@@ -599,7 +605,7 @@
   background-color: #ffffff;
   font-family: inherit;
   box-sizing: border-box;
-  font-family: "Amarante-Regular";
+  font-family: "Amarante";
   margin-bottom: 6px;
 }
 
@@ -616,7 +622,7 @@
   border: 2px inset #404725;
   box-shadow: 0px 0px 15px #404725, 0px 0px 15px #404725 inset;
   transition: 0.3s;
-  font-family: "Amarante-Regular";
+  font-family: "Amarante";
 
 }
 
@@ -635,7 +641,7 @@
 
 #dirMail{
     color: #7f8366;
-    font-family: "Amarante-Regular";
+    font-family: "Amarante";
     font-size: 12px;
 
     a:link{color:#576420}
@@ -674,79 +680,7 @@
 
 
 
-/* 
-footer{
-    background-color: #1f1f1f;
-    height: 150px;
-    padding-inline: clamp(0px, 22vw - 100px, 30%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgb(101, 87, 8);
-    
-    
-}
 
-footer p{
-    color: rgb(101, 87, 8);
-    font-size: 15px;
-    font-family: "Amarante-Regular";
-    
-} */
-
-
-
-footer {
-    background-color: #1f1f1f;
-    min-height: 150px;
-    padding: 30px clamp(20px, 10vw, 30%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgb(101, 87, 8);
-}
-
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 18px;
-}
-
-.linkedin-link {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    color: rgb(101, 87, 8);
-    text-decoration: none;
-    font-family: "Amarante-Regular";
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
-
-.linkedin-link:hover {
-    color: #0077b5;
-}
-
-.linkedin-link i:first-child {
-    font-size: 20px;
-}
-
-.linkedin-link i:last-child {
-    font-size: 11px;
-    transition: transform 0.3s ease;
-}
-
-.linkedin-link:hover i:last-child {
-    transform: translate(3px, -3px);
-}
-
-footer p {
-    color: rgb(101, 87, 8);
-    font-size: 13px;
-    font-family: "Amarante-Regular";
-    margin: 0;
-}
 
 
 
@@ -763,7 +697,7 @@ footer p {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 110px;
+    scroll-padding-top: 80px;
 }
 
 nav a {
@@ -772,12 +706,8 @@ nav a {
     transition: 0.3s;
 }
 
-/* nav a:hover,
-nav a.active {
-    color: #d4af37;
-} */
 
-/* NAVIGATION */
+/* -----NAVIGATION BAR----- */
 nav {
     position: fixed;
     top: 10px;
@@ -787,11 +717,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 24px;
+    padding: 0 20px;
+    height: 60px;
     background-color: rgba(33, 34, 34, 0.65);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border-radius: 4px;
     border-radius: 10px;
     border: 2px inset #474747;
     margin: 0px 10px 0px 10px;
@@ -801,8 +731,10 @@ nav {
     font-size: 20px;
     letter-spacing: 2px;
     color: #ffffff;
-    font-family: "Amarante-Regular";
+    font-family: "Amarante";
     letter-spacing: 0.15em;
+    line-height: 0;
+    
 }
 
 .logo span{
@@ -816,7 +748,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
 }
 
 nav a {
@@ -829,6 +761,184 @@ nav a:hover,
 nav a.active {
     color: white;
 }
+
+
+
+/* -----BURGER----- */
+
+.burger {
+    display: none;
+    z-index: 150;
+    width: 25px;
+    height: 23.6px;
+    position: relative;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    /* background-color: #3d4328; */
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  width: 25px;
+  height: 1.6px;
+  background: #fff;
+  
+}
+
+.line1 { top: 7px; }
+.line2 { top: 15px; }
+
+/* OPEN */
+.burger.active .line1 {
+  animation:
+    mergeTop 0.1s ease forwards,
+    rotateTop 0.1s ease 0.1s forwards;
+}
+
+.burger.active .line2 {
+  animation:
+    mergeBottom 0.1s ease forwards,
+    rotateBottom 0.1s ease 0.1s forwards;
+}
+
+@keyframes mergeTop {
+  to { top: 11px; }
+}
+
+@keyframes mergeBottom {
+  to { top: 11px; }
+}
+
+@keyframes rotateTop {
+  to { transform: rotate(45deg); }
+}
+
+@keyframes rotateBottom {
+  to { transform: rotate(-45deg); }
+}
+
+/* CLOSE */
+.burger.closing .line1 {
+  animation:
+    resetRotateTop 0.1s ease forwards,
+    moveTopBack 0.1s ease 0.1s forwards;
+}
+
+.burger.closing .line2 {
+  animation:
+    resetRotateBottom 0.1s ease forwards,
+    moveBottomBack 0.1s ease 0.1s forwards;
+}
+
+@keyframes resetRotateTop {
+  from { top: 11px; transform: rotate(45deg); }
+  to { top: 11px; transform: rotate(0deg); }
+}
+
+@keyframes resetRotateBottom {
+  from { top: 11px; transform: rotate(-45deg); }
+  to { top: 11px; transform: rotate(0deg); }
+}
+
+@keyframes moveTopBack {
+  from { top: 11px; }
+  to { top: 7px; }
+}
+
+@keyframes moveBottomBack {
+  from { top: 11px; }
+  to { top: 15px; }
+}
+
+
+
+
+
+/* FULLSCREEN MOBILE OVERLAY */
+
+.mobile-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    /* height: 100dvh; */
+    /* margin-top: 59px; */
+    /* background-color: rgba(33, 34, 34, 0.65);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); */
+    bottom: 10px;
+
+    background: #111;
+    box-shadow: 0px 0px 0px 100px #111111;
+
+    z-index: 104;
+
+    
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transform: translateY(-15px);
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        visibility 0.2s ease;
+}
+
+/* OPEN OVERLAY */
+
+.mobile-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+    transform: translateY(0);
+}
+
+/* NAVIGATION LINKS */
+
+.mobile-overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mobile-overlay ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: Gothic Outline;
+
+    transition: opacity 0.2s ease;
+}
+
+.mobile-overlay ul li a:hover {
+    opacity: 0.6;
+    box-shadow: 0px 1px 0px #ffffff;
+    /* filter: drop-shadow(); */
+}
+
+
+/* BURGER ABOVE OVERLAY */
+
+#menuTogglebg {
+    position: relative;
+    z-index: 105;
+}
+
+
 
 
 
@@ -850,13 +960,14 @@ nav a.active {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 50px;
+    
     
 }
 
 /* ABOUT AND CONTACT PAGES */
-.content {
+/* .content {
     min-height: 75vh;
     display: flex;
     flex-direction: column;
@@ -864,14 +975,15 @@ nav a.active {
     align-items: center;
     text-align: center;
     padding: 30px;
-}
+} */
 
 /* LEFT COLUMN: IMAGE */
 .hero-image {
-    flex: 1;
+    flex: 2/5;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .hero-image img {
@@ -886,7 +998,7 @@ nav a.active {
 
 /* RIGHT COLUMN: CONTENT */
 .hero-content {
-    flex: 1;
+    flex: 3/5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -899,12 +1011,12 @@ nav a.active {
     letter-spacing: 4px;
     font-size: 12px;
     margin-bottom: 25px;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
 }
 
 h1 {
     color: #242817;
-    font-family: "Amarante-Regular";
+    font-family: "Amarante";
     font-size: clamp(45px, 8vw, 85px);
     line-height: 1.1;
     margin-bottom: 25px;
@@ -920,7 +1032,7 @@ h1 span {
     max-width: 550px;
     line-height: 1.8;
     margin-bottom: 20px;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
 }
 
 /* BUTTON */
@@ -933,7 +1045,7 @@ h1 span {
     text-decoration: none;
     border-radius: 30px;
     transition: 0.3s;
-    font-family: "Lexend-VariableFont_wght";
+    font-family: "Lexend";
     font-weight: 600;
 }
 
@@ -947,20 +1059,34 @@ h1 span {
 @media (max-width: 600px) {
 
     nav {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 25px;
-        padding: 15px;
+        /* padding: 15px; */
     }
 
-    ul {
+    nav ul {
+        display: none;
         gap: 20px;
+    }
+
+    .mobile-overlay{ 
+        display: flex; 
+    }
+
+    .burger{
+        display: flex;
+    }
+
+    .hero{
+        min-height: auto;
     }
 
     .hero-container {
         flex-direction: column;
         gap: 40px;
         padding-inline: 25px;
-        padding-top: 90px;
+        padding-top: 100px;
+        padding-bottom: 60px;
     }
 
     .hero-image img {
@@ -996,5 +1122,57 @@ img {
 
 
 
+/* /////FOOTER///// */
 
+footer {
+    background-color: #1f1f1f;
+    min-height: 150px;
+    padding: 30px clamp(20px, 10vw, 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(101, 87, 8);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.linkedin-link {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: rgb(101, 87, 8);
+    text-decoration: none;
+    font-family: "Amarante";
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.linkedin-link:hover {
+    color: #0077b5;
+}
+
+.linkedin-link i:first-child {
+    font-size: 20px;
+}
+
+.linkedin-link i:last-child {
+    font-size: 11px;
+    transition: transform 0.3s ease;
+}
+
+.linkedin-link:hover i:last-child {
+    transform: translate(3px, -3px);
+}
+
+footer p {
+    color: rgb(101, 87, 8);
+    font-size: 13px;
+    font-family: "Amarante";
+    margin: 0;
+}
 
