@@ -7,14 +7,26 @@
     <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
 </head>
+
+
 <body>
 
+
+    <div class="Div Block 75">
+        <div></div>
+    </div>
+
     
 
 
     
+
+
+
+
+
+
 
     <nav>
         <h2 class="logo">ALEX<span>.</span></h2>
@@ -25,6 +37,22 @@
             <li><a href="#section1">About</a></li>
             <li><a href="#section2">Contact</a></li>
         </ul>
+
+        <div class="burger" id="menuTogglebg" aria-label="Open menu" aria-expanded="false" role="button" tabindex="0">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+        </div>
+
+        <!-- MOBILE FULLSCREEN MENU -->
+        <div class="mobile-overlay" id="mobileOverlay">
+            <ul>
+                <li><a href="#home">Main</a></li>
+                <li><a href="#section1">About</a></li>
+                <li><a href="#section2">Contact</a></li>
+            </ul>
+
+        </div>
+
     </nav>
 
 
@@ -53,53 +81,6 @@
 </main>
 
 
-
-    <!-- <div id="section1">
-        <div class="box"> -->
-            <!-- <div class="item"> <p>Lorem ipsum dolor sit amet conse hu nffru ggeuekr khfuier khfgiuegr uwgfiuer kfgiue kgiu kbgiue uguie kjbfgei ctetuhkdfhireui erhuihti eruhgiu4gg eguheuithiuerg uieruir adipisicing elit. Quaerat dolores eius unde similique veritatis amet quia, cupiditate magnam delectus. Nobis, ullam ipsum! Aut aliquam itaque facere alias consequatur officiis voluptate!</p></div>
-            <div class="item"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid quam voluptas, soluta officia libero, maiores maxime nisi deserunt possimus quos atque, natus alias sint voluptatibus quod tempore assumenda iusto!</p></div>
-            <div class="item"> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quidem sint ratione quam. Reprehenderit minus aperiam quod sit saepe iusto harum rerum quia placeat ex illo ullam fugiat, totam nobis!</p></div>
-            <div class="item"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, vitae dolor quibusdam ipsa error deleniti similique labore voluptatem atque excepturi ducimus sequi quis blanditiis delectus consequuntur adipisci sit officia? Autem!</p></div>
-            <div class="item"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium natus ipsum commodi, odit ratione amet ea deleniti officiis excepturi quas tempora adipisci iure, magni iusto dicta nesciunt porro harum.</p></div>
-            <div class="item"> <img src="https://lh3.googleusercontent.com/d/1R4YlDbSKhlRYeKTmtdpATuI19koMOCbn" alt="item image"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex labore ducimus facilis dolorem, nulla obcaecati non dolor vel placeat aperiam ad neque deleniti fuga amet porro, ab assumenda veritatis? Fugit.</p></div>
-            <div class="item"> <img src="https://lh3.googleusercontent.com/d/1BC2BZeLy3571PaITTo91mIY7AJkwM-o4" alt="item image"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex labore ducimus facilis dolorem, nulla obcaecati non dolor vel placeat aperiam ad neque deleniti fuga amet porro, ab assumenda veritatis? Fugit.</p></div> -->
-<!--             
-            <div id="about">
-                <h2>A little about me</h2>
-                <p>My name is Alex Naz, a fourth-year Bachelor of Science in Information Technology (BSIT) student at STI College Legazpi, originally from Guinobatan, Albay, Philippines. I have a strong interest in technology, creativity, and digital design, and I enjoy exploring new ideas, learning different tools, and continuously improving my technical and creative abilities. Throughout my academic journey, I have developed an appreciation for how technology and design can work together to create practical, visually appealing, and user-friendly solutions. I aspire to become a professional UI/UX Designer, where I can combine my creativity and technical knowledge to design meaningful digital experiences. I aim to further develop my skills in user interface design, user experience principles, wireframing, and prototyping while keeping up with modern design trends and technologies. Through hands-on projects and real-world experiences, I hope to build a strong portfolio, gain valuable industry experience, and create websites and applications that prioritize usability, accessibility, and user satisfaction.</p>
-            </div>
-            <div id="perStr" class="info-card">
-                <h2>Personal Strengths</h2>
-                <ul>
-                    <li>Attention to Detail</li>
-                    <li>Creative Thinking</li>
-                    <li>Adaptability</li>
-                    <li>Organizational Skills</li>
-                    <li>Critical Thinking</li>
-                    <li>Willingness to Learn</li>
-                    <li>Self-Motivation</li>
-                    <li>Resourcefulness</li>
-                    <li>Ability to Work Independently</li>
-                    <li>Problem-Solving Skills</li>
-                </ul>
-            </div>
-            <div id="desSkl" class="info-card">
-                <h2>Design Skills</h2>
-                <ul>
-                    <li>User Interface (UI) Design</li>
-                    <li>Basic User Experience (UX) Design</li>
-                    <li>Graphic Design</li>
-                    <li>Logo and Brand Identity Design</li>
-                    <li>Layout and Composition</li>
-                    <li>Typography</li>
-                    <li>Color Theory</li>
-                    <li>Visual Hierarchy</li>
-                    <li>Photo Editing</li>
-                    <li>Video Editing</li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
 
 
 
@@ -267,7 +248,7 @@
 
             <form class="postcard-form">
                 <div class="head-stamp">
-                    <h2>SEND A MESSAGE</h2>
+                    <h2>GET IN TOUCH</h2>
                     <div id="stamp"></div>
                 </div>
                 
@@ -279,7 +260,7 @@
                 <input id="email" type="email" placeholder="you@example.com" required>
 
                 <label for="message">Message</label>
-                <textarea id="message" rows="4" placeholder="Write your postcard message..."></textarea>
+                <textarea id="message" rows="4" placeholder="Write your message..."></textarea>
 
                 <div class="head-stamp" id="sendCont"> 
                     <button type="submit">Send message</button>
@@ -308,5 +289,5 @@
     </div>
 </footer>
 
-
+<script src="script.js"></script>
 </body>
