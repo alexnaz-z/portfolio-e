@@ -587,7 +587,7 @@
 }
 
 .head-stamp h2{
-    color: #2a2f18;
+    color: #3a431b;
     /* font-size: 30px; */
     font-size: clamp(30px, 5vw, 45px);
     text-align: center;
