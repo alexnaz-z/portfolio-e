@@ -589,7 +589,7 @@
 .head-stamp h2{
     color: #2a2f18;
     /* font-size: 30px; */
-    font-size: clamp(30px, 5vw, 50px);
+    font-size: clamp(30px, 5vw, 45px);
     text-align: center;
     margin: 0;
     font-family: "Amber";
@@ -621,15 +621,27 @@
     /* background-color: #6d2708; */
 }
 
-.postcard-art img {
+.imgBorder{
+    border: 2px solid #101010;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    align-self: self-end;
+    display: flex;
+    justify-content: center;
+    /* border-radius: 5px; */
+
+}
+
+.imgBorder img {
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
-  box-shadow: 6px 8px 22px 4px rgba(0, 0, 0, 0.6);
-  align-self: self-end;
+  transform: rotate(1.8deg) translateY(2px);
+  /* border-radius: 5px; */
+  /* box-shadow: 6px 8px 22px 4px rgba(0, 0, 0, 0.6); */
+  /* align-self: self-end; */
 }
 
 /* POSTCARD FORM */
@@ -750,7 +762,10 @@
 
   .postcard-art{
     padding: 15px 0 40px 0;
+  }
 
+  .imgBorder{
+    margin: 0 10px 0 10px;
   }
 
   .postcard-form{
